@@ -4,3 +4,6 @@ body {
 header {
     background-color: rgb(255, 127, 187);
 }
+nav {
+    display: block;
+  }
