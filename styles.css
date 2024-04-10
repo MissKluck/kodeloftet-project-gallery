@@ -75,3 +75,12 @@ nav {
 .cherry-blossoms-japan {
     width: 250px;
 }
+
+/* Boxes */ 
+.box {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
