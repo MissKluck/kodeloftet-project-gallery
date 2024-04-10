@@ -50,17 +50,28 @@ nav {
     background-color: rgb(253, 209, 216);
 }
 
-/* Seksjoner */
+/* Sections */
 #intro-section {
     background-color: aquamarine;
     padding: 20px;
     text-align: center;
 }
 
-/* Prosjekt kort */
+/* Project card */
 .project-card {
     padding: 10px;
 }
 .project-card > h2 {
     text-align: center;
+}
+
+/* Images */
+.coding {
+    width: 250px;
+}
+.header-cherry {
+    width: 250px;
+}
+.cherry-blossoms-japan {
+    width: 250px;
 }
