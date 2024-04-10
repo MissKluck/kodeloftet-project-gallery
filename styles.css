@@ -1,5 +1,17 @@
+/* 
+    Overskrive default styling 
+    (Normalise CSS, reset CSS)
+*/
+
+* {
+    margin: 0px;
+}
+
 body {
     background-color: rgb(255, 255, 255);
+    min-height: 100vh; /* vh = view height (100% av skjermhøyden) */
+    display: flex;
+    flex-direction: column;
 }
 header {
     background-color: rgb(255, 255, 255);
@@ -18,4 +30,15 @@ nav {
     background-color: rgba(0,0,0,0.3);
     padding: 2em 1em;
     font-family: sans-serif;
+}
+#navbar {
+    background-color: rgb(253, 209, 216);
+}
+
+#main{
+    flex-grow: 1;
+}
+
+#footer {
+    background-color: rgb(253, 209, 216);
 }
