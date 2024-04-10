@@ -20,6 +20,9 @@ body {
 header {
     background-color: rgb(255, 255, 255);
 }
+#logo {
+    width: auto;
+}
 nav {
     display: block;
   }
