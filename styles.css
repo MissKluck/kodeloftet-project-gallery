@@ -7,6 +7,9 @@
     margin: 0px;
 }
 
+img {
+    width: 100%;
+}
 /* Overordnet layout*/
 body {
     background-color: rgb(255, 255, 255);
@@ -48,5 +51,13 @@ nav {
 #intro-section {
     background-color: aquamarine;
     padding: 20px;
+    text-align: center;
+}
+
+/* Prosjekt kort */
+.project-card {
+    padding: 10px;
+}
+.project-card > h2 {
     text-align: center;
 }
