@@ -7,6 +7,7 @@
     margin: 0px;
 }
 
+/* Overordnet layout*/
 body {
     background-color: rgb(255, 255, 255);
     min-height: 100vh; /* vh = view height (100% av skjermhøyden) */
@@ -41,4 +42,11 @@ nav {
 
 #footer {
     background-color: rgb(253, 209, 216);
+}
+
+/* Seksjoner */
+#intro-section {
+    background-color: aquamarine;
+    padding: 20px;
+    text-align: center;
 }
